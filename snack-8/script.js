@@ -23,7 +23,7 @@ const students = [
 // Risultato: '3C'
 
 const classFind = students.find((element) => {
-  if (element.class === '3C'){
+  if (element.name === 'Marco Lanci'){
     console.log(element.class);
   }
 });
