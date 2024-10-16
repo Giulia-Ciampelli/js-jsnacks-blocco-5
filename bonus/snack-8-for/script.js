@@ -27,7 +27,7 @@ let classFind;
 for (let i = 0; i < students.length; i++) {
   let student = students[i];
 
-  if (student.class === '3C') {
+  if (student.name === 'Marco Lanci') {
     classFind = student.class;
   }
 }
