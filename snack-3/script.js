@@ -7,3 +7,12 @@ numbers.forEach(num => {
     let result = num + 1;
     console.log(result);
 });
+
+// correzione: in un nuovo array, quindi map
+const numPlusOne = numbers.map(num=> {
+    let result = num + 1;
+    // o ++num;
+    return result;
+})
+
+console.log(numPlusOne);
